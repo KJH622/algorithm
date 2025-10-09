@@ -10,5 +10,6 @@
 # s : 녹음할 시간(초)
 # 저장 용량 계산식 = (h(Hz) * b * c * s) / 8 / 1024 / 1024
 # round() : 숫자를 지정된 자릿수로 반올림하는 함수
+
 h, b, c, s = map(int, input().split())
 print(round(h*b*c*s/8/1024/1024, 1), "MB")
