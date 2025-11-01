@@ -1,0 +1,6 @@
+# 세수정렬
+
+data = list(map(int, input().split()))
+data.sort()
+
+print(data[0], data[1], data[2])
