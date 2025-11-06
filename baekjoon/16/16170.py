@@ -1,8 +1,11 @@
 # 오늘의 날짜는?
 
-import time
+from datetime import datetime
 
-t = time.gmtime()              # UTC 기준
-print(time.strftime("%Y", t))
-print(time.strftime("%m", t))
-print(time.strftime("%d", t))
+year = datetime.today().year
+month = datetime.today().month
+day = datetime.today().day
+
+print(year)
+print(month)
+print(day)
