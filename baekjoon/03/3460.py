@@ -9,9 +9,9 @@ input = sys.stdin.readline
 
 T = int(input())
 
-for _ in range(T):
+for _ in range(T): # 테스트 케이스
     n = int(input())
-    pos = 0
+    pos = 0 # 비트의 위치
     result = []
 
     while n > 0:
