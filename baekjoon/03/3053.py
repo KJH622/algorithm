@@ -8,7 +8,7 @@
 # 택시 기하학에서 반지름: r, 원의 넓이: 2r^2
 
 import math
-r = int(input())
+r = int(input()) # 반지름
 
 euclid = math.pi * r * r
 taxicab = 2 * r * r
